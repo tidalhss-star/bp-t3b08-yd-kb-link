@@ -2,39 +2,68 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tidalhss-star.github.io/bp-t3b08-yd-kb-link/</loc>
-    <lastmod>2026-05-24</lastmod>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-  
   <url>
-    <loc>https://tidalhss-star.github.io/bp-t3b08-yd-kb-link/posts/normal-1.html</loc>
-    <lastmod>2026-05-24</lastmod>
+    <loc>https://tidalhss-star.github.io/bp-t3b08-yd-kb-link/about.html</loc>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://tidalhss-star.github.io/bp-t3b08-yd-kb-link/posts/normal-2.html</loc>
-    <lastmod>2026-05-24</lastmod>
+    <loc>https://tidalhss-star.github.io/bp-t3b08-yd-kb-link/blog.html</loc>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://tidalhss-star.github.io/bp-t3b08-yd-kb-link/posts/normal-3.html</loc>
-    <lastmod>2026-05-24</lastmod>
+    <loc>https://tidalhss-star.github.io/bp-t3b08-yd-kb-link/posts/compare-002-s8rva6.html</loc>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://tidalhss-star.github.io/bp-t3b08-yd-kb-link/posts/juice-1.html</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://tidalhss-star.github.io/bp-t3b08-yd-kb-link/posts/juice-2.html</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tidalhss-star.github.io/bp-t3b08-yd-kb-link/posts/normal-1.html</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tidalhss-star.github.io/bp-t3b08-yd-kb-link/posts/normal-2.html</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tidalhss-star.github.io/bp-t3b08-yd-kb-link/posts/normal-3.html</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tidalhss-star.github.io/bp-t3b08-yd-kb-link/posts/qa-001-3ti0kl.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tidalhss-star.github.io/bp-t3b08-yd-kb-link/feed.xml</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
