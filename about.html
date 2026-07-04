@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>여의도 노래방 링크 – 정보 · 상세안내</title>
+    <meta name="description" content="여의도 프리미엄 노래방 링크의 진짜 정보. 주소, 운영시간, 위스키 라인업, 사운드 시스템. 가격표는 전화 한 통이면 알려준다. 010-6279-0862">
+    <meta name="keywords" content="여의도 노래방 링크, 링크 노래방 정보, 여의도 프리미엄 노래방 가격, 여의도 위스키 노래방, 여의도 회식 노래방 추천, 여의도 혼술 노래방">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-noir-gold">
+    <link rel="canonical" href="https://t3b08-yd-kb-link.vercel.app/info">
+    <meta property="og:title" content="여의도 노래방 링크 – 정보는 간단하게, 경험은 화려하게">
+    <meta property="og:description" content="여의도 링크. 가격 흥정 없고, 음질 타협 없다. 진짜 정보만 남겼다. 예약은 010-6279-0862">
+    <style>
+        /* ===== CORE RESET & VARIABLES ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #0b0a0c;
+            color: #e8e3da;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            font-weight: 400;
+            line-height: 1.6;
+            letter-spacing: 0.01em;
+            -webkit-font-smoothing: antialiased;
+            padding-bottom: 4rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        /* ===== HEADER ===== */
+        header {
+            border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+            background-color: #0b0a0c;
+            position: sticky;
+            top: 0;
+            z-index: 20;
+            backdrop-filter: blur(6px);
+        }
+
+        .header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: #d4af37;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+        }
+
+        .logo span {
+            color: #f5f0e6;
+            font-weight: 300;
+            margin-left: 0.1rem;
+        }
+
+        /* ===== NAVIGATION ===== */
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: #b0a99a;
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 400;
+            letter-spacing: 0.02em;
+            transition: color 0.2s;
+            border-bottom: 1px solid transparent;
+            padding-bottom: 2px;
+        }
+
+        nav a:hover {
+            color: #d4af37;
+            border-bottom-color: #d4af37;
+        }
+
+        .nav-cta {
+            background: #d4af37;
+            color: #0b0a0c !important;
+            padding: 0.5rem 1.2rem;
+            border-radius: 40px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            border: none;
+            transition: background 0.2s, transform 0.1s;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .nav-cta:hover {
+            background: #e0c04a;
+            color: #0b0a0c !important;
+            transform: scale(0.98);
+            border-bottom: none;
+        }
+
+        /* ===== HAMBURGER (mobile) ===== */
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            padding: 0.3rem;
+        }
+
+        .hamburger span {
+            display: block;
+            width: 28px;
+            height: 2px;
+            background-color: #d4af37;
+            border-radius: 2px;
+            transition: 0.2s;
+        }
+
+        .mobile-menu {
+            display: none;
+            flex-direction: column;
+            background-color: #151316;
+            padding: 1.5rem 1rem;
+            border-top: 1px solid #2b282c;
+            gap: 1.2rem;
+        }
+
+        .mobile-menu a {
+            color: #c9c2b3;
+            font-size: 1.2rem;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+            padding-bottom: 0.5rem;
+        }
+
+        .mobile-menu .nav-cta {
+            align-self: flex-start;
+            margin-top: 0.5rem;
+        }
+
+        /* ===== RESPONSIVE 768 ===== */
+        @media (max-width: 768px) {
+            .hamburger {
+                display: flex;
+            }
+
+            nav {
+                display: none;
+            }
+
+            .mobile-menu.active {
+                display: flex;
+            }
+
+            .container {
+                padding: 0 1.2rem;
+            }
+
+            .header-inner {
+                height: 60px;
+            }
+        }
+
+        /* ===== TYPOGRAPHY & HERO ===== */
+        .page-title {
+            font-size: 2.8rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            line-height: 1.1;
+            margin: 3rem 0 1rem 0;
+            color: #f0ebe1;
+        }
+
+        .page-title em {
+            font-style: normal;
+            color: #d4af37;
+        }
+
+        .sub-head {
+            font-size: 1.1rem;
+            color: #a59d8f;
+            max-width: 640px;
+            border-left: 3px solid #d4af37;
+            padding-left: 1.2rem;
+            margin-bottom: 2.5rem;
+        }
+
+        /* ===== INFO GRID CARDS (디자인 시스템 유지) ===== */
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.8rem;
+            margin: 2.5rem 0;
+        }
+
+        .info-card {
+            background: #151316;
+            border: 1px solid #2b282c;
+            padding: 2rem 1.5rem;
+            border-radius: 20px;
+            transition: border 0.2s, background 0.2s;
+        }
+
+        .info-card:hover {
+            border-color: #d4af37;
+            background: #1a191d;
+        }
+
+        .info-card h3 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 0.8rem;
+            color: #d4af37;
+            letter-spacing: -0.01em;
+        }
+
+        .info-card p, .info-card li {
+            color: #c9c2b3;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .info-card ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .info-card li {
+            padding: 0.35rem 0;
+            border-bottom: 1px dashed #2f2c31;
+        }
+
+        .info-card li:last-child {
+            border-bottom: none;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #2b282c;
+            color: #d4af37;
+            font-size: 0.7rem;
+            font-weight: 600;
+            padding: 0.2rem 0.8rem;
+            border-radius: 20px;
+            letter-spacing: 0.05em;
+            margin-right: 0.5rem;
+        }
+
+        .divider-gold {
+            height: 1px;
+            background: linear-gradient(90deg, transparent, #d4af37, transparent);
+            margin: 2rem 0;
+            opacity: 0.4;
+        }
+
+        .tel-big {
+            display: inline-block;
+            background: #d4af37;
+            color: #0b0a0c;
+            font-weight: 700;
+            font-size: 1.5rem;
+            padding: 0.6rem 2rem;
+            border-radius: 60px;
+            text-decoration: none;
+            margin: 1.2rem 0 2rem 0;
+            transition: background 0.2s;
+        }
+
+        .tel-big:hover {
+            background: #e0c04a;
+        }
+
+        .faq-item {
+            margin: 1.2rem 0;
+        }
+
+        .faq-question {
+            font-weight: 600;
+            color: #f0ebe1;
+            margin-bottom: 0.3rem;
+            font-size: 1.05rem;
+        }
+
+        .faq-answer {
+            color: #a59d8f;
+            padding-left: 0.5rem;
+            border-left: 2px solid #d4af37;
+            padding-left: 1rem;
+        }
+
+        /* ===== FOOTNOTE ===== */
+        .footnote {
+            color: #6b655b;
+            font-size: 0.8rem;
+            border-top: 1px solid #2b282c;
+            padding-top: 2rem;
+            margin-top: 3rem;
+            text-align: center;
+        }
+
+        /* ===== TEL-LINK 패턴 ===== */
+        a[href^="tel:"] {
+            color: #d4af37;
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1px dotted #d4af37;
+        }
+        a[href^="tel:"]:hover {
+            color: #e8d57a;
+        }
+
+        /* 모바일 햄버거 메뉴 토글 */
+        .mobile-menu a[href^="tel:"] {
+            border-bottom: 1px dotted #d4af37;
+        }
+    </style>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+    <header>
+        <div class="container header-inner">
+            <div class="logo">
+                LINK<span>.</span>
+            </div>
+            <nav>
+                <a href="/">HOME</a>
+                <a href="/info" style="color:#d4af37; border-bottom:1px solid #d4af37;">INFO</a>
+                <a href="#">SOUND</a>
+                <a href="#">WHISKY</a>
+                <a href="tel:01062790862" class="nav-cta">010-6279-0862</a>
+            </nav>
+            <button class="hamburger" id="hamburgerBtn" aria-label="메뉴 열기">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="/">HOME</a>
+            <a href="/info" style="color:#d4af37;">INFO</a>
+            <a href="#">SOUND</a>
+            <a href="#">WHISKY</a>
+            <a href="tel:01062790862" class="nav-cta">010-6279-0862</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1 class="page-title">여의도 노래방 <em>링크</em> —<br>정보는 간결하게, 예산은 유연하게.</h1>
+        <div class="sub-head">
+            프리미엄 사운드, 위스키 한잔, 그리고 당신만을 위한 무대.<br>
+            가격 흥정 없고, 음질 타협 없다. 진짜 정보만 공개한다.
+        </div>
+
+        <!-- ===== INFO GRID ===== -->
+        <div class="info-grid">
+            <div class="info-card">
+                <h3>📍 위치 & 시간</h3>
+                <ul>
+                    <li><span class="badge">주소</span> 서울 영등포구 국제금융로 8길 24 (여의도동) 3F</li>
+                    <li><span class="badge">운영</span> 월~토 18:00 – 03:00 / 일요일 휴무</li>
+                    <li><span class="badge">주차</span> 건물 주차장 가능 (방문 시 2시간 무료)</li>
+                    <li><span class="badge">링크</span> 지하철 5호선 여의도역 3번 출구 도보 4분</li>
+                </ul>
+            </div>
+
+            <div class="info-card">
+                <h3>🥃 위스키 & 시그니처</h3>
+                <ul>
+                    <li>맥켈란 12년 / 야마자키 12년 / 발베니 더블우드</li>
+                    <li>하이볼 전용 프리미엄 탄산수 (자체 제조 얼음)</li>
+                    <li>싱글몰트 위스키 20종 · 칵테일 6종</li>
+                    <li>무제한 하이볼 2시간 ￦49,000 (최소 2인)</li>
+                </ul>
+                <p style="margin-top:1rem; color:#b0a99a;">※ 위스키는 시즌에 따라 일부 변경될 수 있음</p>
+            </div>
+
+            <div class="info-card">
+                <h3>🎤 사운드 & 시스템</h3>
+                <ul>
+                    <li>JBL Professional SRX800 시리즈</li>
+                    <li>유선 마이크 2 + 무선 핸드마이크 2</li>
+                    <li>개인 모니터 스피커 (가수용)</li>
+                    <li>조명 시스템: Hue 개별 컨트롤 + 레이저 포인트</li>
+                    <li>음향 튜닝: 매월 전문 엔지니어 캘리브레이션</li>
+                </ul>
+            </div>
+
+            <div class="info-card">
+                <h3>💎 프라이빗 & 룰</h3>
+                <ul>
+                    <li>최소 인원: 2인 (1인 사용 시 별도 문의)</li>
+                    <li>회식/단체: 최대 12인 (별실 2개 연결 가능)</li>
+                    <li>드레스 코드: 캐주얼 엘레강스 (슬리퍼, 운동복 금지)</li>
+                    <li>흡연: 옥상 테라스 (전자담배 포함)</li>
+                    <li>반려동물 동반 불가 (안내견 가능)</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- ===== 가격 철학 ===== -->
+        <div style="background: #151316; border-radius: 20px; padding: 2rem; margin: 2rem 0; border: 1px solid #2b282c;">
+            <h2 style="color:#d4af37; font-weight:600; font-size:1.6rem; margin-bottom:0.8rem;">💰 가격은 전화로.</h2>
+            <p style="color:#c9c2b3; max-width:700px;">"요금표를 여기 적으면, 너무 싸서 의심하거나 비싸서 안 올 거야. <br>진짜 원하는 사람만 전화해. 우리는 가격으로 승부보지 않아. 경험으로 승부본다."</p>
+            <a href="tel:01062790862" class="tel-big">010-6279-0862</a>
+            <p style="color:#7a7469; font-size:0.9rem;">통화 30초면 원하는 날짜, 인원, 위스키 취향까지 정리해드립니다.</p>
+        </div>
+
+        <!-- ===== FAQ ===== -->
+        <div style="margin: 2.5rem 0;">
+            <h2 style="font-weight:600; font-size:1.8rem; color:#f0ebe1; margin-bottom:1.5rem;">자주 묻는 <span style="color:#d4af37;">도발</span></h2>
+
+            <div class="faq-item">
+                <div class="faq-question">“예약 안 하고 그냥 가도 돼요?”</div>
+                <div class="faq-answer">안 돼. 우리는 문 앞에 'WALK-IN WELCOME' 붙여놓는 가게가 아냐. 최소 2시간 전 전화 예약 필수. 그래야 음향 체크와 위스키 온도 맞춤.</div>
+            </div>
+
+            <div class="faq-item">
+</body>
+</html>
