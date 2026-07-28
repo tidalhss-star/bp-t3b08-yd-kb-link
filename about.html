@@ -3,435 +3,293 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>여의도 노래방 링크 – 정보 · 상세안내</title>
-    <meta name="description" content="여의도 프리미엄 노래방 링크의 진짜 정보. 주소, 운영시간, 위스키 라인업, 사운드 시스템. 가격표는 전화 한 통이면 알려준다. 010-6279-0862">
-    <meta name="keywords" content="여의도 노래방 링크, 링크 노래방 정보, 여의도 프리미엄 노래방 가격, 여의도 위스키 노래방, 여의도 회식 노래방 추천, 여의도 혼술 노래방">
-    <meta name="bpaas-design-system" content="editorial-apple">
-    <meta name="bpaas-design-theme" content="kr-noir-gold">
+    <title>여의도 노래방 링크 - 정보 및 접속 가이드</title>
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-night-electric">
+    <meta name="description" content="여의도 노래방 링크 상세 정보. 실시간 접속 상태, 예약 시스템 방식, 시설 특징 및 방문 전 필수 확인 사항을 포함한 전문 가이드입니다.">
+    <meta name="keywords" content="여의도 노래방 링크, 여의도 Karaoke, 노래방 예약, 여의도 엔터테인먼트, karaoke guide yeouido, night transit map">
+    <meta name="author" content="Yeouido Local Guide">
     <link rel="canonical" href="https://yeouido-song-guide.node-link.shop/about.html">
-    <meta property="og:title" content="여의도 노래방 링크 – 정보는 간단하게, 경험은 화려하게">
-    <meta property="og:description" content="여의도 링크. 가격 흥정 없고, 음질 타협 없다. 진짜 정보만 남겼다. 예약은 010-6279-0862">
+    
+    <!-- Open Graph & Twitter Card -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="여의도 노래방 링크 - 정보 및 접속 가이드">
+    <meta property="og:description" content="실시간 접속 상태와 예약 시스템, 시설 특징 등 방문 전 필수 확인 사항 안내.">
+    <meta property="og:image" content="https://yeouido-song-guide.node-link.shop/assets/night-transit-map.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- CSS Core System -->
     <style>
-        /* ===== CORE RESET & VARIABLES ===== */
+        /* CSS DNA: Night Transit Map + Swiss International Style */
+        :root {
+            --c-bg: #0a0b10;
+            --c-text-main: #e0e6ed;
+            --c-accent: #f5f5f5;
+            --c-highlight: #ff3d00;
+            --c-subtle: #4e5a75;
+            --font-stack: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            --sp-xs: 8px;
+            --sp-sm: 16px;
+            --sp-md: 24px;
+            --sp-lg: 32px;
+            --sp-xl: 48px;
+            --container-width: 1000px;
+            --border-radius: 0;
+        }
+
         * {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
         }
 
         body {
-            background-color: #0b0a0c;
-            color: #e8e3da;
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            font-weight: 400;
+            background-color: var(--c-bg);
+            color: var(--c-text-main);
+            font-family: var(--font-stack);
             line-height: 1.6;
-            letter-spacing: 0.01em;
-            -webkit-font-smoothing: antialiased;
-            padding-bottom: 4rem;
+            font-size: 16px;
+            overflow-x: hidden;
         }
 
-        .container {
-            max-width: 1200px;
+        /* Layout & Spacing */
+        .wrapper {
+            max-width: var(--container-width);
             margin: 0 auto;
-            padding: 0 1.5rem;
+            padding: var(--sp-md) var(--sp-sm);
+            border-left: 1px solid #222;
+            border-right: 1px solid #222;
         }
 
-        /* ===== HEADER ===== */
-        header {
-            border-bottom: 1px solid rgba(212, 175, 55, 0.2);
-            background-color: #0b0a0c;
-            position: sticky;
-            top: 0;
-            z-index: 20;
-            backdrop-filter: blur(6px);
-        }
-
-        .header-inner {
+        /* Navigation - nav-present */
+        .nav-bar {
             display: flex;
-            align-items: center;
             justify-content: space-between;
-            height: 64px;
+            align-items: center;
+            padding: var(--sp-md) 0;
+            border-bottom: 2px solid var(--c-subtle);
+            margin-bottom: var(--sp-xl);
         }
 
-        .logo {
+        .nav-brand {
+            font-weight: 900;
             font-size: 1.5rem;
-            font-weight: 700;
-            letter-spacing: -0.02em;
-            color: #d4af37;
             text-transform: uppercase;
+            letter-spacing: -1px;
+            color: var(--c-accent);
+        }
+
+        .nav-links {
             display: flex;
-            align-items: center;
-            gap: 0.25rem;
+            gap: var(--sp-md);
         }
 
-        .logo span {
-            color: #f5f0e6;
-            font-weight: 300;
-            margin-left: 0.1rem;
-        }
-
-        /* ===== NAVIGATION ===== */
-        nav {
-            display: flex;
-            align-items: center;
-            gap: 2rem;
-        }
-
-        nav a {
-            color: #b0a99a;
+        .nav-links a {
+            color: var(--c-text-main);
             text-decoration: none;
-            font-size: 0.95rem;
-            font-weight: 400;
-            letter-spacing: 0.02em;
-            transition: color 0.2s;
-            border-bottom: 1px solid transparent;
-            padding-bottom: 2px;
-        }
-
-        nav a:hover {
-            color: #d4af37;
-            border-bottom-color: #d4af37;
-        }
-
-        .nav-cta {
-            background: #d4af37;
-            color: #0b0a0c !important;
-            padding: 0.5rem 1.2rem;
-            border-radius: 40px;
             font-weight: 600;
-            font-size: 0.9rem;
-            border: none;
-            transition: background 0.2s, transform 0.1s;
-            text-decoration: none;
-            display: inline-block;
+            font-size: 1rem;
+            text-transform: uppercase;
+            transition: color 0.2s ease, border-bottom 0.2s ease;
         }
 
-        .nav-cta:hover {
-            background: #e0c04a;
-            color: #0b0a0c !important;
-            transform: scale(0.98);
-            border-bottom: none;
+        .nav-links a:hover {
+            color: var(--c-accent);
+            border-bottom: 2px solid var(--c-highlight);
         }
 
-        /* ===== HAMBURGER (mobile) ===== */
-        .hamburger {
-            display: none;
-            flex-direction: column;
-            gap: 5px;
-            background: transparent;
-            border: none;
-            cursor: pointer;
-            padding: 0.3rem;
+        /* Typography Scale */
+        h1, h2, h3 {
+            color: var(--c-accent);
+            line-height: 1.2;
+            margin-bottom: var(--sp-sm);
         }
 
-        .hamburger span {
-            display: block;
-            width: 28px;
-            height: 2px;
-            background-color: #d4af37;
-            border-radius: 2px;
-            transition: 0.2s;
-        }
-
-        .mobile-menu {
-            display: none;
-            flex-direction: column;
-            background-color: #151316;
-            padding: 1.5rem 1rem;
-            border-top: 1px solid #2b282c;
-            gap: 1.2rem;
-        }
-
-        .mobile-menu a {
-            color: #c9c2b3;
-            font-size: 1.2rem;
-            text-decoration: none;
-            border-bottom: 1px solid rgba(212, 175, 55, 0.15);
-            padding-bottom: 0.5rem;
-        }
-
-        .mobile-menu .nav-cta {
-            align-self: flex-start;
-            margin-top: 0.5rem;
-        }
-
-        /* ===== RESPONSIVE 768 ===== */
-        @media (max-width: 768px) {
-            .hamburger {
-                display: flex;
-            }
-
-            nav {
-                display: none;
-            }
-
-            .mobile-menu.active {
-                display: flex;
-            }
-
-            .container {
-                padding: 0 1.2rem;
-            }
-
-            .header-inner {
-                height: 60px;
-            }
-        }
-
-        /* ===== TYPOGRAPHY & HERO ===== */
-        .page-title {
-            font-size: 2.8rem;
-            font-weight: 700;
-            letter-spacing: -0.02em;
+        .type-hero {
+            font-size: 4rem;
+            font-weight: 800;
+            letter-spacing: -2px;
+            text-transform: uppercase;
             line-height: 1.1;
-            margin: 3rem 0 1rem 0;
-            color: #f0ebe1;
         }
 
-        .page-title em {
-            font-style: normal;
-            color: #d4af37;
+        .type-hero span {
+            display: block;
+            color: var(--c-subtle);
+            font-size: 0.4em;
+            margin-bottom: var(--sp-sm);
+            text-transform: uppercase;
+            letter-spacing: 2px;
         }
 
-        .sub-head {
-            font-size: 1.1rem;
-            color: #a59d8f;
-            max-width: 640px;
-            border-left: 3px solid #d4af37;
-            padding-left: 1.2rem;
-            margin-bottom: 2.5rem;
-        }
-
-        /* ===== INFO GRID CARDS (디자인 시스템 유지) ===== */
-        .info-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 1.8rem;
-            margin: 2.5rem 0;
-        }
-
-        .info-card {
-            background: #151316;
-            border: 1px solid #2b282c;
-            padding: 2rem 1.5rem;
-            border-radius: 20px;
-            transition: border 0.2s, background 0.2s;
-        }
-
-        .info-card:hover {
-            border-color: #d4af37;
-            background: #1a191d;
-        }
-
-        .info-card h3 {
-            font-size: 1.3rem;
-            font-weight: 600;
-            margin-bottom: 0.8rem;
-            color: #d4af37;
-            letter-spacing: -0.01em;
-        }
-
-        .info-card p, .info-card li {
-            color: #c9c2b3;
-            font-size: 0.95rem;
-            line-height: 1.6;
-        }
-
-        .info-card ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        .info-card li {
-            padding: 0.35rem 0;
-            border-bottom: 1px dashed #2f2c31;
-        }
-
-        .info-card li:last-child {
-            border-bottom: none;
-        }
-
-        .badge {
-            display: inline-block;
-            background: #2b282c;
-            color: #d4af37;
-            font-size: 0.7rem;
-            font-weight: 600;
-            padding: 0.2rem 0.8rem;
-            border-radius: 20px;
-            letter-spacing: 0.05em;
-            margin-right: 0.5rem;
-        }
-
-        .divider-gold {
-            height: 1px;
-            background: linear-gradient(90deg, transparent, #d4af37, transparent);
-            margin: 2rem 0;
-            opacity: 0.4;
-        }
-
-        .tel-big {
-            display: inline-block;
-            background: #d4af37;
-            color: #0b0a0c;
-            font-weight: 700;
+        .type-subhead {
             font-size: 1.5rem;
-            padding: 0.6rem 2rem;
-            border-radius: 60px;
-            text-decoration: none;
-            margin: 1.2rem 0 2rem 0;
-            transition: background 0.2s;
-        }
-
-        .tel-big:hover {
-            background: #e0c04a;
-        }
-
-        .faq-item {
-            margin: 1.2rem 0;
-        }
-
-        .faq-question {
             font-weight: 600;
-            color: #f0ebe1;
-            margin-bottom: 0.3rem;
+            border-left: 4px solid var(--c-highlight);
+            padding-left: var(--sp-sm);
+            margin-bottom: var(--sp-md);
+        }
+
+        .type-body {
+            color: var(--c-text-main);
             font-size: 1.05rem;
+            margin-bottom: var(--sp-md);
+            max-width: 90%;
         }
 
-        .faq-answer {
-            color: #a59d8f;
-            padding-left: 0.5rem;
-            border-left: 2px solid #d4af37;
-            padding-left: 1rem;
+        .type-lead {
+            font-size: 1.25rem;
+            color: #ccc;
+            margin-bottom: var(--sp-md);
         }
 
-        /* ===== FOOTNOTE ===== */
-        .footnote {
-            color: #6b655b;
-            font-size: 0.8rem;
-            border-top: 1px solid #2b282c;
-            padding-top: 2rem;
-            margin-top: 3rem;
-            text-align: center;
+        .type-meta {
+            font-size: 0.85rem;
+            color: var(--c-subtle);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: var(--sp-md);
+            display: block;
         }
 
-        /* ===== TEL-LINK 패턴 ===== */
-        a[href^="tel:"] {
-            color: #d4af37;
-            text-decoration: none;
-            font-weight: 500;
-            border-bottom: 1px dotted #d4af37;
-        }
-        a[href^="tel:"]:hover {
-            color: #e8d57a;
+        /* Grid & Card System */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--sp-lg);
+            margin-top: var(--sp-xl);
         }
 
-        /* 모바일 햄버거 메뉴 토글 */
-        .mobile-menu a[href^="tel:"] {
-            border-bottom: 1px dotted #d4af37;
+        .card {
+            background: #0f1116;
+            border: 1px solid #2a2f3b;
+            padding: var(--sp-md);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .card:hover {
+            border-color: var(--c-subtle);
+            transform: translateY(-2px);
+        }
+
+        .card h3 {
+            font-size: 1.25rem;
+            margin-bottom: var(--sp-sm);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .type-hero {
+                font-size: 3rem;
+            }
+            .grid-2 {
+                grid-template-columns: 1fr;
+                gap: var(--sp-md);
+            }
+            .nav-bar {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: var(--sp-sm);
+            }
+            .nav-links {
+                flex-wrap: wrap;
+            }
         }
     </style>
   <meta property="og:url" content="https://yeouido-song-guide.node-link.shop/about.html">
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
 </head>
 <body>
-    <header>
-        <div class="container header-inner">
-            <div class="logo">
-                LINK<span>.</span>
-            </div>
-            <nav>
-                <a href="/">HOME</a>
-                <a href="/info" style="color:#d4af37; border-bottom:1px solid #d4af37;">INFO</a>
-                <a href="#">SOUND</a>
-                <a href="#">WHISKY</a>
-                <a href="tel:01062790862" class="nav-cta">010-6279-0862</a>
-            </nav>
-            <button class="hamburger" id="hamburgerBtn" aria-label="메뉴 열기">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+
+<div class="wrapper">
+    <!-- Navigation -->
+    <nav class="nav-bar nav-present">
+        <div class="nav-brand">
+            Yeouido Node Link
         </div>
-        <div class="mobile-menu" id="mobileMenu">
-            <a href="/">HOME</a>
-            <a href="/info" style="color:#d4af37;">INFO</a>
-            <a href="#">SOUND</a>
-            <a href="#">WHISKY</a>
-            <a href="tel:01062790862" class="nav-cta">010-6279-0862</a>
+        <div class="nav-links">
+            <a href="#">홈</a>
+            <a href="#" style="color: var(--c-highlight); border-bottom: 2px solid var(--c-highlight);">정보</a>
+            <a href="#">실시간 상태</a>
+            <a href="#">예약 가이드</a>
+            <a href="#">문의처</a>
         </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="type-hero">
+        <span>Region: Yeouido | Category: Karaoke Facility</span>
+        여의도 노래방 링크
     </header>
 
-    <main class="container">
-        <h1 class="page-title">여의도 노래방 <em>링크</em> —<br>정보는 간결하게, 예산은 유연하게.</h1>
-        <div class="sub-head">
-            프리미엄 사운드, 위스키 한잔, 그리고 당신만을 위한 무대.<br>
-            가격 흥정 없고, 음질 타협 없다. 진짜 정보만 공개한다.
+    <!-- Introduction & Concept -->
+    <section class="type-subhead">
+        1. 정보 및 지역 시그널 (Information & Regional Signal)
+    </section>
+    <div class="type-body">
+        <p class="type-lead">
+            여의도라는 이름은 서울 강남과 강서를 잇는 거대한 도심의 혈관처럼 기능하는 곳입니다. 이곳에 위치한 노래방 링크는 단순한 엔터테인먼트 시설을 넘어, 야간 이동 수단이자 소음의 허브 역할을 수행합니다. 이 페이지의 핵심 목적은 방문자나 예약자가 '링크'라는 특정 브랜드가 제공하는 서비스를 이해하고, 실제 접속 전 필수적인 정보를 명확히 파악하는 데 있습니다.
+        </p>
+        <p>
+            여의도 지역을 선택한 이유는 그 지리적 특성과 밀접한 관련이 있습니다. 여의도는 국회의사당과 여의도공원 등 주요 행정 및 공공 시설이 집중된 곳으로, 낮에는 업무 중심의 분위기이고 밤으로는 다양한 소음 활동이 발생하는 공간입니다. 이곳에 위치한 노래방 링크는 이러한 환경 속에서 '소음'을 주체적으로 관리하는 시스템을 갖추고 있습니다. 즉, 단순히 음악을 틀어주는 공간을 넘어, 주변 건물과의 공존을 위해 설계된 기술적·물리적 인프라를 갖춘 시설로 볼 수 있습니다.
+        </p>
+    </div>
+
+    <!-- Technical Infrastructure -->
+    <section class="type-subhead">
+        2. 기술 및 접속 구조 (Technical & Access Structure)
+    </section>
+    <div class="grid-2">
+        <div class="card">
+            <h3>실시간 상태 확인</h3>
+            <p class="type-body">
+                링크는 단순한 웹사이트를 넘어 실시간 데이터 통신망을 기반으로 한 '나노 노드' 시스템으로 작동합니다. 방문 전 가장 중요한 체크포인트는 바로 '접속 가능 여부'입니다. 이 시스템은 서버 부하, 네트워크 트래픽, 그리고 해당 시간대의 예약 빈도를 종합적으로 분석하여 현재 상태를 반영합니다. 즉, 단순한 ON/OFF 상태가 아니라, 서버의 응답 속도 (Latency) 와 대기열 길이까지 고려한 동적 접근 방식을 사용합니다.
+            </p>
         </div>
-
-        <!-- ===== INFO GRID ===== -->
-        <div class="info-grid">
-            <div class="info-card">
-                <h3>📍 위치 & 시간</h3>
-                <ul>
-                    <li><span class="badge">주소</span> 서울 영등포구 국제금융로 8길 24 (여의도동) 3F</li>
-                    <li><span class="badge">운영</span> 월~토 18:00 – 03:00 / 일요일 휴무</li>
-                    <li><span class="badge">주차</span> 건물 주차장 가능 (방문 시 2시간 무료)</li>
-                    <li><span class="badge">링크</span> 지하철 5호선 여의도역 3번 출구 도보 4분</li>
-                </ul>
-            </div>
-
-            <div class="info-card">
-                <h3>🥃 위스키 & 시그니처</h3>
-                <ul>
-                    <li>맥켈란 12년 / 야마자키 12년 / 발베니 더블우드</li>
-                    <li>하이볼 전용 프리미엄 탄산수 (자체 제조 얼음)</li>
-                    <li>싱글몰트 위스키 20종 · 칵테일 6종</li>
-                    <li>무제한 하이볼 2시간 ￦49,000 (최소 2인)</li>
-                </ul>
-                <p style="margin-top:1rem; color:#b0a99a;">※ 위스키는 시즌에 따라 일부 변경될 수 있음</p>
-            </div>
-
-            <div class="info-card">
-                <h3>🎤 사운드 & 시스템</h3>
-                <ul>
-                    <li>JBL Professional SRX800 시리즈</li>
-                    <li>유선 마이크 2 + 무선 핸드마이크 2</li>
-                    <li>개인 모니터 스피커 (가수용)</li>
-                    <li>조명 시스템: Hue 개별 컨트롤 + 레이저 포인트</li>
-                    <li>음향 튜닝: 매월 전문 엔지니어 캘리브레이션</li>
-                </ul>
-            </div>
-
-            <div class="info-card">
-                <h3>💎 프라이빗 & 룰</h3>
-                <ul>
-                    <li>최소 인원: 2인 (1인 사용 시 별도 문의)</li>
-                    <li>회식/단체: 최대 12인 (별실 2개 연결 가능)</li>
-                    <li>드레스 코드: 캐주얼 엘레강스 (슬리퍼, 운동복 금지)</li>
-                    <li>흡연: 옥상 테라스 (전자담배 포함)</li>
-                    <li>반려동물 동반 불가 (안내견 가능)</li>
-                </ul>
-            </div>
+        <div class="card">
+            <h3>예약 시스템 방식</h3>
+            <p class="type-body">
+                링크는 '사전 예약'을 기본 원칙으로 삼고 있으며, 당일 방문은 사전 연락이 필수입니다. 예약 시스템은 시간대별 (예: 20 시~24 시) 과 인원수 (1 인~최대 5 인) 를 세분화하여 관리합니다. 특히 주말과 평일의 서버 부하량이 다르므로, 이에 따른 접속 창口的 변동성을 고려해야 합니다. 예를 들어, 금요일 밤은 수요가 급증하여 시스템 로딩 시간이 평소보다 길어질 수 있으므로, 여유 시간을 두고 접근하는 것이 권장됩니다.
+            </p>
         </div>
+    </div>
 
-        <!-- ===== 가격 철학 ===== -->
-        <div style="background: #151316; border-radius: 20px; padding: 2rem; margin: 2rem 0; border: 1px solid #2b282c;">
-            <h2 style="color:#d4af37; font-weight:600; font-size:1.6rem; margin-bottom:0.8rem;">💰 가격은 전화로.</h2>
-            <p style="color:#c9c2b3; max-width:700px;">"요금표를 여기 적으면, 너무 싸서 의심하거나 비싸서 안 올 거야. <br>진짜 원하는 사람만 전화해. 우리는 가격으로 승부보지 않아. 경험으로 승부본다."</p>
-            <a href="tel:01062790862" class="tel-big">010-6279-0862</a>
-            <p style="color:#7a7469; font-size:0.9rem;">통화 30초면 원하는 날짜, 인원, 위스키 취향까지 정리해드립니다.</p>
-        </div>
+    <!-- Facility Features & Experience -->
+    <section class="type-subhead">
+        3. 시설 특징 및 경험 가이드 (Facility Features & Experience Guide)
+    </section>
+    <div class="type-body">
+        <p class="type-lead">
+            링크는 '소음 제어'와 '공간 활용성'을 최우선으로 설계된 공간입니다. 내부에는 고음질 스피커 시스템과 함께, 외부로 전달되는 소음을 최소화하는 단열 재료가 사용되어 주변 상가나 거주민에게 최소한의 간섭을 줍니다. 또한, 내부 인테리어는 기능성을 강조한 미니멀리즘 스타일로, 음향 반사를 고려하여 최적의 소리 환경을 제공합니다.
+        </p>
+        <p>
+            방문 목적에 따라 접근 방식이 달라집니다. 단순한 '연예자나 친구와 파티'를 위한 경우에는 빠른 접속과 직관적인 인터페이스가 중요하며, 반면 '비즈니스 미팅'이나 '프로젝트 발표'를 위한 공간이라면 고음질 마이크와 배경 조명 조절 기능이 필수적입니다. 링크는 이러한 다양한 요구사항을 충족시키기 위해 모듈형 인테리어 시스템을 도입하여, 고객의 필요에 따라 공간을 재구성할 수 있도록 설계되었습니다.
+        </p>
+    </div>
 
-        <!-- ===== FAQ ===== -->
-        <div style="margin: 2.5rem 0;">
-            <h2 style="font-weight:600; font-size:1.8rem; color:#f0ebe1; margin-bottom:1.5rem;">자주 묻는 <span style="color:#d4af37;">도발</span></h2>
+    <!-- FAQ Section -->
+    <section class="type-subhead">
+        4. 자주 묻는 질문 (FAQ)
+    </section>
+    <div class="card" style="margin-top: var(--sp-lg);">
+        <h3>Q1. 실시간 접속 상태를 확인하는 가장 확실한 방법은 무엇인가요?</h3>
+        <p class="type-body">
+            홈페이지의 '상태' 탭에 접속하여 현재 서버 응답 시간과 예약 가능 인원수를 확인하세요. 만약 '로딩 중'이 길게 표시된다면, 해당 시간대의 트래픽이 많거나 서버 유지보수가 진행 중일 수 있습니다. 이 경우 10 분~15 분 정도 대기 후 재시도하거나, 오프 피크 시간대 (예: 평일 오전) 에 접속하는 것이 좋습니다.
+        </p>
+        <h3>Q2. 당일 방문이 가능한가요?</h3>
+        <p class="type-body">
+            기본 원칙은 '사전 예약'입니다. 다만, 긴급한 상황에 대비하여 '즉시 예약' 옵션을 제공합니다. 이는 서버에 실시간으로 연결되는 방식이며, 대기 시간이 발생할 수 있습니다. 따라서 당일 방문 시에는 최소 1 시간 전까지는 예약 요청을 완료하는 것이 안전합니다.
+        </p>
+    </div>
 
-            <div class="faq-item">
-                <div class="faq-question">“예약 안 하고 그냥 가도 돼요?”</div>
-                <div class="faq-answer">안 돼. 우리는 문 앞에 'WALK-IN WELCOME' 붙여놓는 가게가 아냐. 최소 2시간 전 전화 예약 필수. 그래야 음향 체크와 위스키 온도 맞춤.</div>
-            </div>
+    <!-- Footer / Meta -->
+    <footer style="margin-top: var(--sp-xl); padding-top: var(--sp-lg); border-top: 1px solid #2a2f3b; padding-bottom: var(--sp-lg);">
+        <span class="type-meta">Region: Yeouido | Industry: Karaoke | Main KW: 여의도 노래방 링크</span>
+        <p class="type-body" style="font-size: 0.9rem;">
+            © 2024 Yeouido Local Guide. All rights reserved. <br>
+            본 가이드는 방문 전 필수 정보를 제공하기 위해 제작되었으며, 실시간 상태는 변경될 수 있습니다.
+        </p>
+    </footer>
+</div>
 
-            <div class="faq-item">
 </body>
 </html>
